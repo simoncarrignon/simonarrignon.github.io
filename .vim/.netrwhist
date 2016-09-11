@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/scarrign/projects/PhD/dev/Roborobo/prj/mEDEA-sp'
+let g:netrw_dirhist_2='/home/scarrign/pandora/docs/tutorials'
+let g:netrw_dirhist_3='/home/scarrign/projects/PhD/dev/dataBaseExplorer'
+let g:netrw_dirhist_4='/home/scarrign/projects/PhD/dev/jm/epnet-dev/141110-TradeAndCulture/AnalyseTools'
+let g:netrw_dirhist_5='/home/scarrign/.sqlmap/output/thamous.univ-rennes1.fr'
+let g:netrw_dirhist_6='/home/scarrign/projects/PhD/dev/RoboroboOld/Roborobo/config'
+let g:netrw_dirhist_7='/home/scarrign/randnet/run_0000'
+let g:netrw_dirhist_8='/home/scarrign/projects/PhD/doc/conferences/201605_MS7'
+let g:netrw_dirhist_9='/home/scarrign/projects/PhD/dev/Lichen-s-project/dev/bashscripts'
