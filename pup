@@ -1,0 +1,18 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	worktree = /home/scarrign/.tmuxplugins/tmux-resurrect
+[remote "origin"]
+	url = https://github.com/tmux-plugins/tmux-resurrect
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[remote "frama"]
+	url = git@framagit.org:simoncarrignon/tmux-resurrect.git
+	fetch = +refs/heads/*:refs/remotes/frama/*
+[remote "fork"]
+	url = git@github.com:simoncarrignon/tmux-resurrect.git
+	fetch = +refs/heads/*:refs/remotes/fork/*
