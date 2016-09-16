@@ -1,0 +1,27 @@
+pane	0	1	:bash	1	:*	0	:/home/scarrign	1	bash	:
+pane	DIV	1	:ipfs	0	:-	0	:/home/scarrign/Downloads	0	ipfs	:ipfs daemon
+pane	DIV	1	:ipfs	0	:-	1	:/home/scarrign/Music/PNL	0	bash	:
+pane	DIV	1	:ipfs	0	:-	2	:/home/scarrign/Music/PNL	1	bash	:
+pane	DIV	2	:currencies	1	:*	0	:/home/scarrign/.tmuxplugins/tmux-resurrect	1	vim	:vim scripts/helpers.sh
+pane	DIV	2	:currencies	1	:*	1	:/home/scarrign/Pictures	0	tail	:tail -f ../.config/duniter/duniter_default/duniter.log
+pane	DIV	2	:currencies	1	:*	2	:/home/scarrign/.tmux/resurrect	0	bash	:
+pane	Lichen	1	:screenshell	1	:*	0	:/home/scarrign/projects/PhD/dev/Lichen-s-project/dev/RScripts	1	vim	:vim test.R
+pane	Lichen	1	:screenshell	1	:*	1	:/home/scarrign/projects/PhD/dev/Lichen-s-project/dev/RScripts	0	gwenview	:gwenview ../../doc/img/NModulevsSexProb_t=100000.png
+pane	Lichen	1	:screenshell	1	:*	2	:/home/scarrign/projects/PhD/dev/Lichen-s-project/dev/RScripts	0	R	:/usr/lib/R/bin/exec/R
+pane	Lichen	2	:managefile	0	:-	0	:/home/scarrign/projects/PhD/dev/Lichen-s-project/dev/bashscripts	0	vim	:vim merge.sh
+pane	Lichen	2	:managefile	0	:-	1	:/home/scarrign/projects/PhD/dev/Lichen-s-project	1	bash	:
+pane	Lichen	3	:writting	0	:	0	:/home/scarrign/projects/PhD/dev/Lichen-s-project/doc/source	1	okular	:okular Abstract.pdf
+pane	Lichen	3	:writting	0	:	1	:/home/scarrign/projects/PhD/dev/Lichen-s-project/doc/source	0	vim	:vim Abstract.tex
+pane	Lichen	3	:writting	0	:	2	:/home/scarrign	0	bash	:
+pane	ceec	1	:bash	1	:*	0	:/home/scarrign/projects/PhD/dev/ceeculture	1	bash	:
+pane	sorge	1	:bash	1	:*	0	:/home/scarrign/projects/jorge	1	vim	:vim jorge.tex
+pane	sorge	1	:bash	1	:*	1	:/home/scarrign/projects/jorge	0	bash	:
+window	0	1	1	:*	bf5d,215x73,0,0,0
+window	DIV	1	0	:-	6c8f,215x73,0,0{107x73,0,0,1,107x73,108,0[107x36,108,0,15,107x36,108,37,17]}
+window	DIV	2	1	:*	4c8f,215x73,0,0{107x73,0,0,2,107x73,108,0[107x36,108,0,12,107x36,108,37,14]}
+window	Lichen	1	1	:*	18bb,215x73,0,0{126x73,0,0[126x70,0,0,3,126x2,0,71,21],88x73,127,0,19}
+window	Lichen	2	0	:-	5b29,215x73,0,0{107x73,0,0,5,107x73,108,0,22}
+window	Lichen	3	0	:	17d7,215x73,0,0{47x73,0,0,6,117x73,48,0,7,49x73,166,0,8}
+window	ceec	1	1	:*	bf66,215x73,0,0,9
+window	sorge	1	1	:*	2039,215x73,0,0[215x46,0,0,10,215x26,0,47,11]
+state	DIV	Lichen
