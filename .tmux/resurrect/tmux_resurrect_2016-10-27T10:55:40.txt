@@ -1,0 +1,45 @@
+pane	0	1	:bash	1	:*	0	:/home/scarrign	1	bash	:
+pane	DIV	1	:ipfs	1	:*	0	:/home/scarrign/Pictures/janvier-aout2016	1	okular	:okular /home/scarrign/Downloads/BuiattiLongo2.pdf
+pane	DIV	1	:ipfs	1	:*	1	:/home/scarrign/Music/PNL	0	bash	:
+pane	DIV	1	:ipfs	1	:*	2	:/home/scarrign/Music/PNL	0	bash	:
+pane	DIV	2	:currencies	0	:-	0	:/home/scarrign	1	ssh	:ssh simon@elisya.org
+pane	DIV	2	:currencies	0	:-	1	:/home/scarrign/Pictures	0	R	:/usr/lib/R/bin/exec/R
+pane	DIV	2	:currencies	0	:-	2	:/home/scarrign	0	bash	:
+pane	Lichen	1	:Rscript	1	:*	0	:/home/scarrign/projects/PhD/dev/Lichen-s-project/dev/RScripts	0	bash	:
+pane	Lichen	1	:Rscript	1	:*	1	:/home/scarrign/projects/PhD/dev/Lichen-s-project/dev/RScripts	1	bash	:
+pane	Lichen	2	:managefile	0	:-	0	:/home/scarrign	0	bash	:
+pane	Lichen	2	:managefile	0	:-	1	:/home/scarrign/projects/PhD/dev/Lichen-s-project/dev/RScripts/img/ModelVsData	1	bash	:
+pane	Lichen	3	:writting	0	:	0	:/home/scarrign/projects/PhD/dev/Lichen-s-project/doc/source	0	bash	:
+pane	Lichen	3	:writting	0	:	1	:/home/scarrign/projects/PhD/dev/Lichen-s-project/doc/source	0	bash	:
+pane	Lichen	3	:writting	0	:	2	:/home/scarrign	1	bash	:
+pane	Lichen	4	:bash	0	:	0	:/home/scarrign/projects/PhD/dev/Lichen-s-project/dev/RScripts	1	bash	:
+pane	alife	1	:dev	1	:*	0	:/home/scarrign/projects/EvoLoopS-1.0	0	bash	:
+pane	alife	1	:dev	1	:*	1	:/home/scarrign/projects	0	bash	:
+pane	alife	1	:dev	1	:*	2	:/home/scarrign/projects/EvoLoopS-1.0/golly-2.8-gtk-64bit	1	bash	:
+pane	arensotrum	1	:apt-get	1	:*	0	:/home/scarrign	1	ssh	:ssh mn
+pane	arensotrum	1	:apt-get	1	:*	1	:/home/scarrign	0	ssh	:ssh bsc21394@dt01.bsc.es
+pane	ceec	1	:bash	1	:*	0	:/home/scarrign/projects/PhD/dev	1	bash	:
+pane	pandora	1	:	1	:*	0	:/home/scarrign/projects/PhD/dev/pandora/docs/tutorials	0	bash	:
+pane	pandora	1	:	1	:*	1	:/home/scarrign/projects/PhD/dev/pandora	0	bash	:
+pane	pandora	1	:	1	:*	2	:/home/scarrign	1	bash	:
+pane	sorge	1	:bash	1	:*	0	:/home/scarrign/projects/jorge	0	bash	:
+pane	sorge	1	:bash	1	:*	1	:/home/scarrign/projects/jorge	1	bash	:
+pane	trieste	1	:screenshell	0	:-	0	:/home/scarrign/projects/PhD/dev/trieste-lens	0	vim	:vim functionTrieste.R
+pane	trieste	1	:screenshell	0	:-	1	:/home/scarrign/projects/PhD/dev/trieste-lens	0	R	:/usr/lib/R/bin/exec/R
+pane	trieste	1	:screenshell	0	:-	2	:/home/scarrign/projects/PhD/dev/trieste-lens	1	bash	:
+pane	trieste	2	:bash	1	:*	0	:/home/scarrign/projects/PhD/dev/trieste-lens	1	bash	:
+window	0	1	1	:*	b95d,215x62,0,0,0
+window	DIV	1	1	:*	3820,215x62,0,0{107x62,0,0,2,107x62,108,0[107x31,108,0,3,107x30,108,32,4]}
+window	DIV	2	0	:-	b82d,215x62,0,0{107x62,0,0,5,107x62,108,0[107x31,108,0,6,107x30,108,32,7]}
+window	Lichen	1	1	:*	9d9a,215x62,0,0[215x39,0,0,8,215x22,0,40,9]
+window	Lichen	2	0	:-	beb4,215x62,0,0{107x62,0,0,10,107x62,108,0,11}
+window	Lichen	3	0	:	737a,215x62,0,0{47x62,0,0,12,117x62,48,0,13,49x62,166,0,14}
+window	Lichen	4	0	:	5ce4,215x62,0,0,15
+window	alife	1	1	:*	cd22,215x62,0,0{107x62,0,0[107x31,0,0,16,107x30,0,32,17],107x62,108,0,18}
+window	arensotrum	1	1	:*	37c6,215x62,0,0{107x62,0,0,1,107x62,108,0,30}
+window	ceec	1	1	:*	5ce8,215x62,0,0,19
+window	pandora	1	1	:*	ed1b,215x62,0,0{107x62,0,0[107x31,0,0,20,107x30,0,32,21],107x62,108,0,22}
+window	sorge	1	1	:*	933d,215x62,0,0[215x39,0,0,23,215x22,0,40,24]
+window	trieste	1	0	:-	340e,215x62,0,0[215x39,0,0{109x39,0,0,25,105x39,110,0,29},215x22,0,40,27]
+window	trieste	2	1	:*	dce7,215x62,0,0,28
+state	DIV	arensotrum

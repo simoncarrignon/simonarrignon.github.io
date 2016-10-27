@@ -123,6 +123,7 @@ export PATH=$PATH:$JAVAPATH
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PANDORAPATH/lib/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/hdf5/lib/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/hdf5/include/
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu/
 export EPNETDEV_PATH=~/projects/PhD/EPNet/epnet-dev/141110-TradeAndCulture/
 
 
