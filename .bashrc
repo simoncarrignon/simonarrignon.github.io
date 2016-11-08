@@ -39,7 +39,7 @@ esac
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
 # should be on the output of commands, not on the prompt
-#force_color_prompt=yes
+force_color_prompt=yes
 
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
@@ -124,6 +124,7 @@ export PATH=$PATH:$JAVAPATH
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PANDORAPATH/lib/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/hdf5/lib/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/hdf5/include/
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu/
 export EPNETDEV_PATH=~/projects/PhD/EPNet/epnet-dev/141110-TradeAndCulture/
 
 
@@ -143,3 +144,7 @@ export PHDEV=~/projects/PhD/dev
 export PHDOC=~/projects/PhD/doc
 export PHDORA=~/projects/PhD/dev/jm/epn
 export PHD=projects/PhD/
+
+PS1='me@${HOSTNAME::4}:$(p=${PWD/$HOME/"~"};((${#p}>29))&&echo "${p::8} … ${p:(-20)}"||echo "\w")\$ '
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
