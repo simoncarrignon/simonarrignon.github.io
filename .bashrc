@@ -2,7 +2,9 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-penséeDuJour/penséeDuJour.sh
+if [ -d "penséeDuJour" ]; then
+    penséeDuJour/penséeDuJour.sh
+fi
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
@@ -145,6 +147,6 @@ export PHDOC=~/projects/PhD/doc
 export PHDORA=~/projects/PhD/dev/jm/epn
 export PHD=projects/PhD/
 
-PS1='me@${HOSTNAME::4}:$(p=${PWD/$HOME/"~"};((${#p}>29))&&echo "${p::8} … ${p:(-20)}"||echo "\w")\$ '
+PS1='me@${HOSTNAME::3}:$(p=${PWD/$HOME/"~"};((${#p}>29))&&echo "${p::8} … ${p:(-20)}"||echo "\w")\$ '
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
