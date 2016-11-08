@@ -143,3 +143,10 @@ export PHDEV=~/projects/PhD/dev
 export PHDOC=~/projects/PhD/doc
 export PHDORA=~/projects/PhD/dev/jm/epn
 export PHD=projects/PhD/
+
+PS1='me@${HOSTNAME::4}:$(p=${PWD/$HOME/"~"};((${#p}>25))&&echo "${p::8} … ${p:(-20)}"||echo "\w")\$ '
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+source ~/.rvm/scripts/rvm
+source ~/.rvm/scripts/rvm
+source ~/.rvm/scripts/rvm
