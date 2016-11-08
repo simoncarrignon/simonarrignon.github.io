@@ -38,7 +38,7 @@ esac
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
 # should be on the output of commands, not on the prompt
-#force_color_prompt=yes
+force_color_prompt=yes
 
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
@@ -144,9 +144,6 @@ export PHDOC=~/projects/PhD/doc
 export PHDORA=~/projects/PhD/dev/jm/epn
 export PHD=projects/PhD/
 
-PS1='me@${HOSTNAME::4}:$(p=${PWD/$HOME/"~"};((${#p}>25))&&echo "${p::8} … ${p:(-20)}"||echo "\w")\$ '
+PS1='me@${HOSTNAME::4}:$(p=${PWD/$HOME/"~"};((${#p}>29))&&echo "${p::8} … ${p:(-20)}"||echo "\w")\$ '
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-source ~/.rvm/scripts/rvm
-source ~/.rvm/scripts/rvm
-source ~/.rvm/scripts/rvm
