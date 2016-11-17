@@ -147,6 +147,6 @@ export PHDOC=~/projects/PhD/doc
 export PHDORA=~/projects/PhD/dev/jm/epn
 export PHD=projects/PhD/
 
-PS1='me@${HOSTNAME::3}:$(p=${PWD/$HOME/"~"};((${#p}>39))&&echo "${p::12} … ${p:(-26)}"||echo "\w")\n\$ '
+PS1='me@${HOSTNAME::3}:$(p=${PWD/$HOME/"~"};((${#p}>120))&&echo "${p::51} … ${p:(-40)}"||echo "\w")\n\$ '
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
