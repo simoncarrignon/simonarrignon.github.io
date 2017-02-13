@@ -149,4 +149,11 @@ export PHD=projects/PhD/
 
 PS1='me@${HOSTNAME::3}:$(p=${PWD/$HOME/"~"};((${#p}>120))&&echo "${p::51} … ${p:(-40)}"||echo "\w")\n\$ '
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting (perle stuff)
+
+
+##Start 
+alias tunnelisya='bash .tunnelisya.sh'
+
+
+
