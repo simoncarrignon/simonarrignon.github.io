@@ -1,0 +1,2 @@
+#/bin/bash
+curl -s https://api.bitfinex.com/v1/pubticker/btcusd | sed -e 's/{"mid":"\(.\+\)","bid".*/\1/' 
