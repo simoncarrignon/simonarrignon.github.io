@@ -98,3 +98,9 @@ set grepprg=grep\ -nH\ $*
 " Display scons files with python syntax
 autocmd BufReadPre,BufNewFile SConstruct set filetype=python
 autocmd BufReadPre,BufNewFile SConscript set filetype=python
+
+
+" petites estethique de recherche
+"
+set incsearch "search while typping
+set hlsearch  "highligh searchat
