@@ -1,2 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/scarrign/result/firstSetFixedGoodsSmallProd/firstSetFixedGoods/16_conf-diston-nstep4500-nag6000-trans-random/exp_1'
+let g:netrw_dirhist_2='/home/scarrign/.vim/bundle/intim'
+let g:netrw_dirhist_3='/home/scarrign/.vim/bundle/intim/plugin'
+let g:netrw_dirhist_4='/home/scarrign/.vim/r-plugin'
+let g:netrw_dirhist_5='/home/scarrign/.vim/bundle/vimroom/doc'
+let g:netrw_dirhist_6='/home/scarrign/test'
+let g:netrw_dirhist_7='/home/scarrign/R'
+let g:netrw_dirhist_8='/home/scarrign/projects/PhD/dev/abc-pandora'
