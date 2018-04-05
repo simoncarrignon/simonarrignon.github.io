@@ -55,3 +55,6 @@ set hlsearch  "highligh searchat
 
 
 let r_syntax_folding=1
+set expandtab
+set tabstop=4
+set shiftwidth=4
