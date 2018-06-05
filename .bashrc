@@ -127,25 +127,14 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PANDORAPATH/lib/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/hdf5/lib/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/hdf5/include/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu/
-export EPNETDEV_PATH=~/projects/PhD/EPNet/epnet-dev/141110-TradeAndCulture/
-
-
-# Add environment variable COCOS_CONSOLE_ROOT for cocos2d-x
-export COCOS_CONSOLE_ROOT=/home/scarrign/projects/cocos2d-x-3.8.1/tools/cocos2d-console/bin
-export PATH=$COCOS_CONSOLE_ROOT:$PATH
-
-# Add environment variable COCOS_TEMPLATES_ROOT for cocos2d-x
-export COCOS_TEMPLATES_ROOT=/home/scarrign/projects/cocos2d-x-3.8.1/templates
-export PATH=$COCOS_TEMPLATES_ROOT:$PATH
+export EPNETDEV_PATH=~/projects/phd/EPNet/epnet-dev/141110-TradeAndCulture/
 
 # Add environment variable ANT_ROOT for cocos2d-x
-export ANT_ROOT=/usr/share/ant/bin
-export PATH=$ANT_ROOT:$PATH
 export CXX=/usr/bin/gcc-4.9
-export PHDEV=~/projects/PhD/dev
-export PHDOC=~/projects/PhD/doc
-export PHDORA=~/projects/PhD/dev/jm/epn
-export PHD=projects/PhD/
+export PHDEV=~/projects/phd/dev
+export PHDOC=~/projects/phd/doc
+export PHDORA=~/projects/phd/dev/jm/epn
+export PHD=projects/phd/
 
 PS1='me@${HOSTNAME::3}:$(p=${PWD/$HOME/"~"};((${#p}>120))&&echo "${p::51} … ${p:(-40)}"||echo "\w")\n\$ '
 
