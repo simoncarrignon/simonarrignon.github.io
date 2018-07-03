@@ -156,4 +156,5 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting (perle stuff)
 alias tunnelisya='bash .tunnelisya.sh'
 
 
+alias remap='xmodmap -e "keycode 54 = c C NoSymbol NoSymbol v"'
 
