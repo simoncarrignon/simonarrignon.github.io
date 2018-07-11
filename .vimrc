@@ -44,9 +44,12 @@ autocmd BufReadPre,BufNewFile SConstruct set filetype=python
 autocmd BufReadPre,BufNewFile SConscript set filetype=python
 
 
-let R_in_buffer = 0
-let R_applescript = 0
-let R_tmux_split = 1
+if $TMUX != ''
+    let R_source = $HOME.'/.vim/bundle/Nvim-R/R/tmux_split.vim'
+    let R_in_buffer = 0
+    let R_applescript = 0
+    let R_tmux_split = 1
+endif
 "          
 " petites estethique de recherche
 "
@@ -58,3 +61,4 @@ let r_syntax_folding=1
 set expandtab
 set tabstop=4
 set shiftwidth=4
+

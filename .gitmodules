@@ -4,3 +4,6 @@
 [submodule ".vim/bundle/Nvim-R"]
 	path = .vim/bundle/Nvim-R
 	url = https://github.com/jalvesaq/Nvim-R.git
+[submodule ".vim/bundle/vim-latex"]
+	path = .vim/bundle/vim-latex
+	url = https://github.com/vim-latex/vim-latex
