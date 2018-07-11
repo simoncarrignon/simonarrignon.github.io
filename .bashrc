@@ -141,7 +141,7 @@ export PATH=$COCOS_TEMPLATES_ROOT:$PATH
 # Add environment variable ANT_ROOT for cocos2d-x
 export ANT_ROOT=/usr/share/ant/bin
 export PATH=$ANT_ROOT:$PATH
-export CXX=/usr/bin/gcc-4.9
+export CXX=/usr/bin/g++
 export PHDEV=~/projects/PhD/dev
 export PHDOC=~/projects/PhD/doc
 export PHDORA=~/projects/PhD/dev/jm/epn
@@ -156,4 +156,11 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting (perle stuff)
 alias tunnelisya='bash .tunnelisya.sh'
 
 
+alias Vbox_start='VBoxManage startvm debian-stable  --type headless'
+alias Vbox_connect='ssh -p3022 simon@localhost'
 
+export GDAL_ROOT=/opt/gdal-1.10.1
+export LD_LIBRARY_PATH=${GDAL_ROOT}/lib/:${LD_LIBRARY_PATH}
+
+export HDF5_ROOT=/opt/hdf5-1.8.19/
+export LD_LIBRARY_PATH=${HDF5_ROOT}/lib/:${LD_LIBRARY_PATH}
