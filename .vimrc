@@ -29,9 +29,6 @@ let g:Tex_MultipleCompileFormats='pdf'
 let g:Tex_CompileRule_pdf='lualatex -interaction=nonstopmode $*'
 
 
-""Powerline
-let g:Powerline_symbols = 'fancy'
-set laststatus=2
 
 ""ça aussi pour latex suite, pour grep, pour citer, enfin on sait pas trop
 set grepprg=grep\ -nH\ $*
@@ -65,3 +62,9 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+let g:airline_symbols.space = "\ua0"
+let g:airline_powerline_fonts=1
+let g:airline#extensions#tabline#enabled = 1
