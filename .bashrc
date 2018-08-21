@@ -155,3 +155,4 @@ export LD_LIBRARY_PATH=${GDAL_ROOT}/lib/:${LD_LIBRARY_PATH}
 
 export HDF5_ROOT=/opt/hdf5-1.8.19/
 export LD_LIBRARY_PATH=${HDF5_ROOT}/lib/:${LD_LIBRARY_PATH}
+export TERM="xterm-256color"
