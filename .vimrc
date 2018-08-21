@@ -29,6 +29,9 @@ let g:Tex_MultipleCompileFormats='pdf'
 let g:Tex_CompileRule_pdf='lualatex -interaction=nonstopmode $*'
 
 
+""Powerline
+let g:Powerline_symbols = 'fancy'
+set laststatus=2
 
 ""ça aussi pour latex suite, pour grep, pour citer, enfin on sait pas trop
 set grepprg=grep\ -nH\ $*
