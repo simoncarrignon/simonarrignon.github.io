@@ -130,11 +130,13 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu/
 export EPNETDEV_PATH=~/projects/phd/EPNet/epnet-dev/141110-TradeAndCulture/
 
 # Add environment variable ANT_ROOT for cocos2d-x
-export CXX=/usr/bin/gcc-4.9
-export PHDEV=~/projects/phd/dev
-export PHDOC=~/projects/phd/doc
-export PHDORA=~/projects/phd/dev/jm/epn
-export PHD=projects/phd/
+export ANT_ROOT=/usr/share/ant/bin
+export PATH=$ANT_ROOT:$PATH
+export CXX=/usr/bin/g++
+export PHDEV=~/projects/PhD/dev
+export PHDOC=~/projects/PhD/doc
+export PHDORA=~/projects/PhD/dev/jm/epn
+export PHD=projects/PhD/
 
 PS1='me@${HOSTNAME::3}:$(p=${PWD/$HOME/"~"};((${#p}>120))&&echo "${p::51} … ${p:(-40)}"||echo "\w")\n\$ '
 
@@ -147,3 +149,8 @@ alias tunnelisya='bash .tunnelisya.sh'
 
 alias remap='xmodmap -e "keycode 54 = c C NoSymbol NoSymbol v"'
 
+export GDAL_ROOT=/opt/gdal-1.10.1
+export LD_LIBRARY_PATH=${GDAL_ROOT}/lib/:${LD_LIBRARY_PATH}
+
+export HDF5_ROOT=/opt/hdf5-1.8.19/
+export LD_LIBRARY_PATH=${HDF5_ROOT}/lib/:${LD_LIBRARY_PATH}
