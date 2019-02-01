@@ -140,7 +140,7 @@ export PHDOC=~/projects/PhD/doc
 export PHDORA=~/projects/PhD/dev/jm/epn
 export PHD=projects/PhD/
 
-PS1="\[${COLOR_LIGHT_RED}\]me\[${COLOR_LIGHT_GREEN}\]@${HOSTNAME::3}\[${COLOR_LIGHT_BLUE}\]:$(p=${PWD/$HOME/"~"};((${#p}>120))&&echo "${p::51} ~@ ${p:(-40)}"||echo "\w")\n\[${COLOR_LIGHT_GRAY}\]$\[${COLOR_NC}\] "
+PS1="\[${COLOR_YELLOW}\]me\[${COLOR_LIGHT_PURPLE}\]@${HOSTNAME::3}\[${COLOR_LIGHT_BLUE}\]:$(p=${PWD/$HOME/"~"};((${#p}>120))&&echo "${p::51} ~@ ${p:(-40)}"||echo "\w")\n\[${COLOR_LIGHT_GRAY}\]$\[${COLOR_NC}\] "
 
 
 
