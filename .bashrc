@@ -77,20 +77,10 @@ export COLOR_LIGHT_GRAY='\e[0;37m'
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-#if [ -f ~/.bash_aliases ]; then
-#    . ~/.bash_aliases
-#fi
-
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     eval "`dircolors -b`"
     alias ls='ls --color=auto'
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
-
-    #alias grep='grep --color=auto'
-    #alias fgrep='fgrep --color=auto'
-    #alias egrep='egrep --color=auto'
 fi
 
 ls --color=al > /dev/null 2>&1 && alias ls='ls -F --color=al' || alias ls='ls -G'
@@ -140,11 +130,8 @@ export PHDOC=~/projects/PhD/doc
 export PHDORA=~/projects/PhD/dev/jm/epn
 export PHD=projects/PhD/
 
+#un bon shell mais faudrait changer les couleurs la c'est laid
 PS1="\[${COLOR_YELLOW}\]me\[${COLOR_LIGHT_PURPLE}\]@${HOSTNAME::3}\[${COLOR_LIGHT_BLUE}\]:$(p=${PWD/$HOME/"~"};((${#p}>120))&&echo "${p::51} ~@ ${p:(-40)}"||echo "\w")\n\[${COLOR_LIGHT_GRAY}\]$\[${COLOR_NC}\] "
-
-
-
-#PS1=me$@${HOSTNAME::3}:$(p=${PWD/$HOME/"~"};((${#p}>120))&&echo "${p::51} _ ${p:(-40)}"||echo "\w")\n\$
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting (perle stuff)
 
