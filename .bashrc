@@ -116,8 +116,6 @@ export PATH=$PATH:$PANDORAPATH/bin/
 export JAVAPATH=/usr/java/
 export PATH=$PATH:$JAVAPATH
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PANDORAPATH/lib/
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/hdf5/lib/
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/hdf5/include/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu/
 export EPNETDEV_PATH=~/projects/phd/EPNet/epnet-dev/141110-TradeAndCulture/
 
@@ -140,10 +138,16 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting (perle stuff)
 alias tunnelisya='bash .tunnelisya.sh'
 
 
-alias remap='xmodmap -e "keycode 54 = c C NoSymbol NoSymbol v"'
+alias remap='xmodmap -e "keycode  54 = c C c C v V c C copyright v"'
 
 export GDAL_ROOT=/opt/gdal-1.10.1
 export LD_LIBRARY_PATH=${GDAL_ROOT}/lib/:${LD_LIBRARY_PATH}
 
 export HDF5_ROOT=/opt/hdf5-1.8.19/
 export LD_LIBRARY_PATH=${HDF5_ROOT}/lib/:${LD_LIBRARY_PATH}
+
+export GDAL_ROOT=/opt/gdal-1.10.1
+export LD_LIBRARY_PATH=${GDAL_ROOT}/lib/:${LD_LIBRARY_PATH}
+
+export PANDORAPATH=/opt/pandora/
+export PYTHONPATH=/opt/pandora//bin:/opt/pandora//bin:
