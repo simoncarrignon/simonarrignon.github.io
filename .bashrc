@@ -115,9 +115,7 @@ export PANDORAPATH=/usr/local/pandora
 export PATH=$PATH:$PANDORAPATH/bin/
 export JAVAPATH=/usr/java/
 export PATH=$PATH:$JAVAPATH
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PANDORAPATH/lib/
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu/
-export EPNETDEV_PATH=~/projects/phd/EPNet/epnet-dev/141110-TradeAndCulture/
+export PATH=$PATH:/home/simon/projects/divnimbios/
 
 # Add environment variable ANT_ROOT for cocos2d-x
 export ANT_ROOT=/usr/share/ant/bin
