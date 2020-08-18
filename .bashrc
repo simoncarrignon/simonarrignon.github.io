@@ -54,44 +54,36 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
-
-if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
-fi
-unset color_prompt force_color_prompt
-
-# If this is an xterm set the title to user@host:dir
-case "$TERM" in
-xterm*|rxvt*)
-    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
-    ;;
-*)
-    ;;
-esac
+export COLOR_NC='\e[0m' # No Color
+export COLOR_WHITE='\e[1;37m'
+export COLOR_BLACK='\e[0;30m'
+export COLOR_BLUE='\e[0;34m'
+export COLOR_LIGHT_BLUE='\e[1;34m'
+export COLOR_GREEN='\e[0;32m'
+export COLOR_LIGHT_GREEN='\e[1;32m'
+export COLOR_CYAN='\e[0;36m'
+export COLOR_LIGHT_CYAN='\e[1;36m'
+export COLOR_RED='\e[0;31m'
+export COLOR_LIGHT_RED='\e[1;31m'
+export COLOR_PURPLE='\e[0;35m'
+export COLOR_LIGHT_PURPLE='\e[1;35m'
+export COLOR_BROWN='\e[0;33m'
+export COLOR_YELLOW='\e[1;33m'
+export COLOR_GRAY='\e[0;30m'
+export COLOR_LIGHT_GRAY='\e[0;37m'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-#if [ -f ~/.bash_aliases ]; then
-#    . ~/.bash_aliases
-#fi
-
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     eval "`dircolors -b`"
     alias ls='ls --color=auto'
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
-
-    #alias grep='grep --color=auto'
-    #alias fgrep='fgrep --color=auto'
-    #alias egrep='egrep --color=auto'
 fi
 
+ls --color=al > /dev/null 2>&1 && alias ls='ls -F --color=al' || alias ls='ls -G'
 # some more ls aliases
 #alias ll='ls -l'
 #alias la='ls -A'
@@ -124,8 +116,6 @@ export PATH=$PATH:$PANDORAPATH/bin/
 export JAVAPATH=/usr/java/
 export PATH=$PATH:$JAVAPATH
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PANDORAPATH/lib/
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/hdf5/lib/
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/hdf5/include/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu/
 export EPNETDEV_PATH=~/projects/phd/EPNet/epnet-dev/141110-TradeAndCulture/
 
@@ -138,7 +128,8 @@ export PHDOC=~/projects/PhD/doc
 export PHDORA=~/projects/PhD/dev/jm/epn
 export PHD=projects/PhD/
 
-PS1='me@${HOSTNAME::3}:$(p=${PWD/$HOME/"~"};((${#p}>120))&&echo "${p::51} … ${p:(-40)}"||echo "\w")\n\$ '
+#un bon shell mais faudrait changer les couleurs la c'est laid
+PS1="\[${COLOR_YELLOW}\]me\[${COLOR_LIGHT_PURPLE}\]@${HOSTNAME::3}\[${COLOR_LIGHT_BLUE}\]:$(p=${PWD/$HOME/"~"};((${#p}>120))&&echo "${p::51} ~@ ${p:(-40)}"||echo "\w")\n\[${COLOR_LIGHT_GRAY}\]$\[${COLOR_NC}\] "
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting (perle stuff)
 
@@ -147,11 +138,16 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting (perle stuff)
 alias tunnelisya='bash .tunnelisya.sh'
 
 
-alias Vbox_start='VBoxManage startvm debian-stable  --type headless'
-alias Vbox_connect='ssh -p3022 simon@localhost'
+alias remap='xmodmap -e "keycode  54 = c C c C v V c C copyright v"'
 
 export GDAL_ROOT=/opt/gdal-1.10.1
 export LD_LIBRARY_PATH=${GDAL_ROOT}/lib/:${LD_LIBRARY_PATH}
 
 export HDF5_ROOT=/opt/hdf5-1.8.19/
 export LD_LIBRARY_PATH=${HDF5_ROOT}/lib/:${LD_LIBRARY_PATH}
+
+export GDAL_ROOT=/opt/gdal-1.10.1
+export LD_LIBRARY_PATH=${GDAL_ROOT}/lib/:${LD_LIBRARY_PATH}
+
+export PANDORAPATH=/opt/pandora/
+export PYTHONPATH=/opt/pandora//bin:/opt/pandora//bin:
