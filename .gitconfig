@@ -1,6 +1,6 @@
 [user]
-	email = simon@nimbios.org
-	name = Simon Carrignon
+	email = simon@elisya.org
+	name = Simon
 [alias]
     lg = !"git lg1"
     lg1 = !"git lg1-specific --all"

@@ -26,7 +26,7 @@ shopt -s histappend
 shopt -s checkwinsize
 
 # make less more friendly for non-text input files, see lesspipe(1)
-[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+#[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # set variable identifying the chroot you work in (used in the prompt below)
 if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
@@ -115,7 +115,9 @@ export PANDORAPATH=/usr/local/pandora
 export PATH=$PATH:$PANDORAPATH/bin/
 export JAVAPATH=/usr/java/
 export PATH=$PATH:$JAVAPATH
-export PATH=$PATH:/home/simon/projects/divnimbios/
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PANDORAPATH/lib/
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu/
+export EPNETDEV_PATH=~/projects/phd/EPNet/epnet-dev/141110-TradeAndCulture/
 
 # Add environment variable ANT_ROOT for cocos2d-x
 export ANT_ROOT=/usr/share/ant/bin
