@@ -27,7 +27,7 @@ imap <C-c> <Plug>Tex_MathCal
 let g:Tex_DefaultTargetFormat='pdf'
 let g:Tex_MultipleCompileFormats='pdf'
 let g:Tex_CompileRule_pdf='lualatex -interaction=nonstopmode $*'
-
+let g:tex_comment_nospell=1
 
 
 ""ça aussi pour latex suite, pour grep, pour citer, enfin on sait pas trop
@@ -68,3 +68,8 @@ endif
 let g:airline_symbols.space = "\ua0"
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled = 1
+
+
+set diffopt+=iwhite
+
+set diffexpr=""
