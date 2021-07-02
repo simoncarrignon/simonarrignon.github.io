@@ -11,9 +11,21 @@ set wrap linebreak nolist
 "" burfers goes to background
 set hidden 
 
-"" Pour changer la forme du curseur en mode insertion 
-let &t_SI = "\<Esc>]50;CursorShape=1\x7"
-let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+if exists("$TMUX")
+    let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
+    let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
+else
+    let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+    let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+endif
+" upon hitting escape to change modes,
+" send successive move-left and move-right
+" commands to immediately redraw the cursor
+
+inoremap <special> <Esc> <Esc>hl
+
+" don't blink the cursor
+set guicursor+=i:blinkwait0
 "
 ""utiliser pour afficher des é avec latex suite
 imap <buffer> <leader>it <Plug>Tex_InsertItemOnThisLine
