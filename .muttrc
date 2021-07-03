@@ -1,0 +1,63 @@
+set from = "sc@elisya.org"
+set realname = "Simon"
+
+set sidebar_visible
+set sidebar_short_path
+set sidebar_format = "%B%?F? [%F]?%* %?N?%N/?%S"
+
+# Shorten mailbox names (truncate all subdirs)
+set sidebar_component_depth=1
+# Shorten mailbox names (truncate 1 subdirs)
+set sidebar_delim_chars="/"
+# Delete everything up to the last or Nth / character
+#
+# My credentials
+set smtp_url = "smtp://sc@elisya.com@mail.elisya.org:587/"
+set smtp_pass = ""
+set imap_user = "sc@elisya.org"
+set imap_pass = ""
+
+source ~/.mutt/gpg.rc
+#
+# # My mailboxes
+set folder = "imaps://mail.elisya.org:993"
+set spoolfile = "+INBOX"
+#
+#
+# # Where to put the stuff
+set header_cache = "~/.mutt/cache/headers"
+set message_cachedir = "~/.mutt/cache/bodies"
+set certificate_file = "~/.mutt/certificates"
+
+# Etc
+set mail_check = 30
+set move = no
+set imap_keepalive = 900
+set sort = threads
+set editor = "vim"
+
+set sort_aux = 'last-date-received'
+set imap_check_subscribed
+unset collapse_unread
+
+hdr_order Date From To Cc
+
+###un peu de vim style :
+bind index G noop
+bind index GG last-entry
+bind index g noop
+bind index gg first-entry
+bind index r noop
+bind index ra group-reply
+##latex-suite like binding
+#
+bind index za collapse-thread
+bind index zM collapse-all
+
+#ne demande pas de sauver si pas de modif
+set abort_unmodified=yes
+
+auto_view text/html
+
+##ad more confige
+alias jeremy Jeremy <jeremy@elisya.org>

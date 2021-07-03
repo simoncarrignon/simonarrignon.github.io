@@ -140,14 +140,18 @@ alias tunnelisya='bash .tunnelisya.sh'
 
 alias remap='xmodmap -e "keycode  54 = c C c C v V c C copyright v"'
 
-export GDAL_ROOT=/opt/gdal-1.10.1
-export LD_LIBRARY_PATH=${GDAL_ROOT}/lib/:${LD_LIBRARY_PATH}
+#export GDAL_ROOT=/opt/gdal-1.10.1
+#export LD_LIBRARY_PATH=${GDAL_ROOT}/lib/:${LD_LIBRARY_PATH}
+#
+#export HDF5_ROOT=/opt/hdf5-1.8.19/
+#export LD_LIBRARY_PATH=${HDF5_ROOT}/lib/:${LD_LIBRARY_PATH}
+#
+#export GDAL_ROOT=/opt/gdal-1.10.1
+#export LD_LIBRARY_PATH=${GDAL_ROOT}/lib/:${LD_LIBRARY_PATH}
+#
+#export PANDORAPATH=/opt/pandora/
+#export PYTHONPATH=/opt/pandora//bin:/opt/pandora//bin:
 
-export HDF5_ROOT=/opt/hdf5-1.8.19/
-export LD_LIBRARY_PATH=${HDF5_ROOT}/lib/:${LD_LIBRARY_PATH}
+GPG_TTY=$(tty)
+export GPG_TTY
 
-export GDAL_ROOT=/opt/gdal-1.10.1
-export LD_LIBRARY_PATH=${GDAL_ROOT}/lib/:${LD_LIBRARY_PATH}
-
-export PANDORAPATH=/opt/pandora/
-export PYTHONPATH=/opt/pandora//bin:/opt/pandora//bin:
