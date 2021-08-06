@@ -1,8 +1,8 @@
-execute pathogen#infect()
 syntax enable
 
 filetype plugin on
 filetype indent on
+
 
 
 "" pour revenir a la ligne sans couper les mots :
@@ -35,7 +35,7 @@ imap <C-c> <Plug>Tex_MathCal
 
 "au VimEnter * au FileType tex silent! unmap! <buffer> é
 
-""latex-suite compile en pdf :
+""latex-suite compile en pdf using lualatex:
 let g:Tex_DefaultTargetFormat='pdf'
 let g:Tex_MultipleCompileFormats='pdf'
 let g:Tex_CompileRule_pdf='lualatex -interaction=nonstopmode $*'
@@ -57,7 +57,8 @@ autocmd BufReadPre,BufNewFile SConscript set filetype=python
 
 
 if $TMUX != ''
-    let R_source = $HOME.'/.vim/bundle/Nvim-R/R/tmux_split.vim'
+    let R_source = $HOME.'/.vim/pack/all/start/Nvim-R/R/tmux_split.vim'
+    """this belewo doesn't work anymoreb
     let R_in_buffer = 0
     let R_applescript = 0
     let R_tmux_split = 1
@@ -85,3 +86,4 @@ let g:airline#extensions#tabline#enabled = 1
 set diffopt+=iwhite
 
 set diffexpr=""
+
