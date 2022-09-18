@@ -107,6 +107,9 @@ paris CEA
 0820,end,CDAL/FYSSEN
 0820,start, 
 1038,start, BENTLEY et al
-1332,done,reading stats
+1332,done,reading stats,
 
 1704,start,encoutenrreading
+1740,pause,alcolo
+1805,retourpause,
+2112,presquefini
