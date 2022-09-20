@@ -118,4 +118,21 @@ paris CEA
 1546,start, drif2sel
 1627,end, drif2sel
 2030,start, drif2sel
-2203,start, drif2sel/encoutner burial/network
+2230,end, drif2sel/encoutner burial/metal network
+
+20220918
+0804,start,drift2sel
+0955,end,drift2sel (-15min reibus)
+0955,start,encoutner data 
+1250,end,encoutner data 
+1355,start,encoutner data 
+1546,en,encoutner data 
+
+20220918
+0854,start,admin (une heure denervement a raconter a alfredo le problem valverde)
+0958,end,admin/randomreadencounter
+
+1015,start,encounter
+1544,end,encoounter burial (jpeux enlever 30min de rien, et ausis beaucou de cultural evolution)
+1545,start,bentleyetal
+1650,end,bentleyetal abc RF
