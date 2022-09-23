@@ -1,3 +1,4 @@
+
 7 Septembre 2022
 
 0854 debut 
@@ -120,7 +121,7 @@ paris CEA
 2030,start, drif2sel
 2230,end, drif2sel/encoutner burial/metal network
 
-20220918
+20220919
 0804,start,drift2sel
 0955,end,drift2sel (-15min reibus)
 0955,start,encoutner data 
@@ -128,13 +129,40 @@ paris CEA
 1355,start,encoutner data 
 1546,en,encoutner data 
 
-20220918
-0854,start,admin (une heure denervement a raconter a alfredo le problem valverde)
+20220920
+0850,start,admin (une heure denervement a raconter a alfredo le problem valverde)
 0958,end,admin/randomreadencounter
-
 1015,start,encounter
 1544,end,encoounter burial (jpeux enlever 30min de rien, et ausis beaucou de cultural evolution)
 1545,start,bentleyetal
 1650,end,bentleyetal abc RF
+
 2229,start,admin
 2345,end,admin mai surtout encounter burial
+
+20220921
+0755,start,admin paper reading
+1608,stop,meeting miljana/ICAR exploration
+1620,start,reading
+1730,end,ICAR explo
+
+202209222
+0820,start,admin metal network
+1053,end, metal network
+1153,end, ztest and icar vignette
+1153,still,bentley
+1601,done,bentley/sieste
+1631,start,bentley
+1926,end,bentley-admin
+
+2100,end,bentley-admin
+2130,end,bentley
+
+
+202209223
+0810,start,bentley and ICAR 
+0951,end,bentley and ICAR but mostly tmux customisazrion
+1328,end,CDAL meeting| ICAR
+1436,back,CDAL meeting
+1759,en,CDAL email/ICAR (enleve faciel 1h de merdouill)
+1932,end,ICAR/ENCOUNTER general/BENTLEY
