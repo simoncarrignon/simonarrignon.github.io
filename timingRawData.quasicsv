@@ -121,6 +121,8 @@ paris CEA
 2030,start, drif2sel
 2230,end, drif2sel/encoutner burial/metal network
 
+=165min
+
 20220919
 0804,start,drift2sel
 0955,end,drift2sel (-15min reibus)
@@ -128,6 +130,8 @@ paris CEA
 1250,end,encoutner data 
 1355,start,encoutner data 
 1546,en,encoutner data 
+
+391min
 
 20220920
 0850,start,admin (une heure denervement a raconter a alfredo le problem valverde)
@@ -140,11 +144,15 @@ paris CEA
 2229,start,admin
 2345,end,admin mai surtout encounter burial
 
+=539
+
 20220921
 0755,start,admin paper reading
 1608,stop,meeting miljana/ICAR exploration
 1620,start,reading
 1730,end,ICAR explo
+
+553
 
 202209222
 0820,start,admin metal network
@@ -155,15 +163,45 @@ paris CEA
 1631,start,bentley
 1926,end,bentley-admin
 
+=665min
+
 2100,end,bentley-admin
 2130,end,bentley
+
+=695min
 
 
 202209223
 0810,start,bentley and ICAR 
 0951,end,bentley and ICAR but mostly tmux customisazrion
 1328,end,CDAL meeting| ICAR
-1436,back,CDAL meeting
-1759,en,CDAL email/ICAR (enleve faciel 1h de merdouill)
+
+1436,start,CDAL seminar 
+1759,end,CDAL email/ICAR (enleve faciel 1h de merdouill)
 1932,end,ICAR/ENCOUNTER general/BENTLEY
 1952,end,collaborabm
+572
+
+202209224
+1449,start.admin
+2105,end,ENCOUNTER bilan/bentley relance
+=375
+
+202209226,
+0805,start,admin/bentley
+1050,end,collaborabm/encounter reading/cdal seminar
+1205,start,
+1339,end,CDAL/encounter jomon burial-reading
+1436,start,
+1730,end,reading encounter/encounter jomon burial
+1806,start,reading encounter/encounter jomon burial
+1959,end,reading encounter/Gaussaian process
+
+202209226,0745,start,discussion general
+202209226,0820,start,review process
+202209226,1203,end,bentley
+202209226,1435,start,review alf/bentley
+202209226,1647,end,CDAL seminar/bentley
+
+202209227,0740,start,bentley
+202209227,1346,end,encounter meeting/network/bentley
