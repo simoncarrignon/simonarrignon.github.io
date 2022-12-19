@@ -197,11 +197,489 @@ paris CEA
 1806,start,reading encounter/encounter jomon burial
 1959,end,reading encounter/Gaussaian process
 
-202209226,0745,start,discussion general
-202209226,0820,start,review process
-202209226,1203,end,bentley
-202209226,1435,start,review alf/bentley
-202209226,1647,end,CDAL seminar/bentley
+20220926,0745,start,discussion general
+20220926,0820,start,review process
+20220926,1203,end,bentley
+20220926,1435,start,review alf/bentley
+20220926,1647,end,CDAL seminar/bentley
 
-202209227,0740,start,bentley
-202209227,1346,end,encounter meeting/network/bentley
+20220927,0740,start,bentley
+20220927,1354,end,encounter meeting/network/bentleyt add
+
+20220930,1700,start,application colleges
+20220930,1900,end,application colleges
+
+20221003,1855,start,admi$
+20221003,2105,end,admin sessio nCAA
+
+20221011,1800,start,admin colllege application/ cdal seminar
+20221011,1840,end,admin  cdal seminar
+20221011,1840,start,collaborab
+20221011,2006,end,collaborab
+20221011,2006,start,collaborab admin
+20221011,2026,end,collaborab admin
+
+20221014,1705,start,admin
+20221014,1905,end,admin
+
+20221017,1207,start,admin CDAL seminar
+20221017,1237,end, CDAL seminar
+20221017,1437,start, CDAL seminar
+20221017,1500,end, CDAL seminar
+20221017,1800,start, CDAL seminar/colaborabm
+20221017,1939,end, CDAL seminar/colaborabm
+
+20221018,0923,start, litterature review
+20221018,1125,end, litterature review
+20221018,1720,start, admin
+20221018,1732,end, admin
+20221018,1745,start, admin
+20221018,1805,end, admin
+20221018,1825,start, admin litterature CDAL talk
+20221018,1925,end, CDAL seminar series litterature review
+20221018,1934,start, litterature  review Bentley et al
+
+20221019,1010,start, coffe catching up admin
+20221019,1110,end, coffe catching up admin
+20221019,1110,start, meeting ENCOUNTER
+20221019,1245,end, meeting ENCOUNTER
+20221019,1245,start, review + Rice Size
+20221019,1305,end, review + Rice Size
+20221019,1333,start, review
+20221019,1355,end, review
+20221019,1358,start, CDAL seminar collaborabm
+20221019,1631,end, CDAL seminar collaborabm
+20221019,1918,start, ENCOUNTER div
+20221019,1940,end, ENCOUNTER div
+
+20221020,0910,start, Admin + Bentley
+20221020,1045,end, Admin + Bentley
+20221020,1045,start, review
+20221020,1100,end, review
+20221020,1100,start, admin
+20221020,1240,end, admin
+20221020,1400,start,bentley
+20221020,1456,start,bentley + admin
+20221020,1600,end,bentley + admin
+20221020,1600,start,garrod
+20221020,1700,end,garrod
+20221020,1710,start,ABC RF
+20221020,1902,end,ABC RF
+
+20221021,0830,start,ABC RF-admin-CDAL
+20221021,1010,end,admin-CDAL
+20221021,1010,start,ABC RF
+20221021,1042,end,ABC RF
+20221021,1050,start,ABC RF
+20221021,1200,end,
+20221021,1200,start,CDAL 
+20221021,1300,end,CDAL 
+20221021,1345,start,CDAL div collaborabm
+20221021,1500,end,CDAL div collaboarbm 
+20221021,1515,start,dep div ABC RF
+20221021,1855,end,dep div ABC RF
+
+20221023,1858,start,review
+20221023,2033,end,review
+
+20221024,0851,start,admin
+20221024,1250,end,review
+20221024,1447,start,review
+20221024,1520,end,review
+20221024,1520,start,CDAL seminar
+20221024,1820,end,CDAL seminar
+20221024,1820,start,review
+20221024,1929,end,review
+
+
+20221025,0851,start,admin linux stuff
+20221025,1000,end,admin linux stuff
+20221025,1030,start,REVIEW
+20221025,1256,end,REVIEW
+20221025,1320,start,REVIEW + BA archaeoriddle
+20221025,1559,end,REVIEW + BA archaeoriddle and admin rand computer buying
+20221025,1605,start,bentley
+20221025,1648,end,bentley
+20221025,1745,start,bentley et al CAA Abastract
+20221025,2020,end,
+
+20221026,0715,start,CAA abstracts collaborabm
+20221026,1000,end,CAA abstracts collaborabm
+20221026,1015,start,CAA abstracts admin general refleciton about life
+20221026,1245,end,ENCOUNTER
+20221026,1250,start,random litterature readings
+20221026,1350,end,random litterature readings
+20221026,1530,start,CAA 
+20221026,1556,end,
+20221026,1621,start,reading nettle
+20221026,1639,end,
+20221026,1639,start,coolaborabm coding
+20221026,1716,end,coolaborabm coding
+20221026,1716,start,bentley and div
+20221026,1820,end,bentley and div read
+20221026,1839,start,bentley and div read
+20221026,1936,end,bentley and div read
+
+20221027,0835,start,bentley and div R play
+20221027,1020,end,repboot computer etc..
+20221027,1100,start,bentley abstract CAA
+20221027,1349,end,bentley abstract CAA
+20221027,1423,start,bentley abstract CAA
+20221027,1605,end,bentley meeting CAA
+
+20221028,0805,start,bentley admin
+20221028,1258,end,bentley admin + CDAL meeting
+20221028,1515,start,ENCOUNTER CAA abstract (ICAR)
+20221028,1940,end,ENCOUNTER/BENTLEY CAA abstract (ICAR)/CDAL
+
+20221029,1540,start,ENCOUNTER/BENTLEY CAA abstract 
+20221029,1910,start,ENCOUNTER/BENTLEY CAA abstract 
+
+20221031,0920,start,CAA abstracts (BENTLEY/COLLABAMB/ENCOUNTER)
+20221031,1111,end,CAA abstracts (BENTLEY/COLLABAMB/ENCOUNTER)
+20221031,1130,start,BA grant
+20221031,1230,end,BA grant
+20221031,1410,start,BA grant
+20221031,1430,end,BA grant
+20221031,1535,start,BA grant
+20221031,1653,end,CAA abstracts
+20221031,1653,start,BA grant ARCHAEORIDDLE
+20221031,1721,end,BA grant ARCHAEORIDDLE
+20221031,1822,start,BA grant ARCHAEORIDDLE
+20221031,1933,end,BA grant ARCHAEORIDDLE
+
+20221101,0709,start,CAA review/admin
+20221101,0721,end,CAA review/admin
+20221101,0814,start,CAA review/admin
+20221101,0927,end,BA email to Nicholas baout budget
+20221101,0927,start,BA research proposal
+20221101,1146,end,BA research proposal
+20221101,1146,start,BA personal info
+20221101,1255,end,BA personal info
+20221101,1417,start,BA personal info
+20221101,1451,end,BA personal info
+20221101,1451,start,rewview VEGUETA
+20221101,1625,end,review  VEGUETA
+20221101,1732,start,review  VEGUETA
+20221101,1810,end,review  VEGUETA/ADMIN
+
+20221102,0810,start,admin
+20221102,0945,end,admin BA/REVIEW VEGUETA
+20221102,1100,start,admin BA/ ENCOUTNER MEETING
+20221102,1330,end,meeting lucE
+20221102,1600,start,email shinya ENCOUNTER
+20221102,1625,end,email shinya ENCOUNTER
+20221102,1731,start,email shinya ENCOUNTER
+20221102,1901,end,email shinya ENCOUNTER
+20221102,2201,start,email shinya/bentley
+20221102,2217,end,email shinya/bentley
+
+20221103,0703,start,admin bentleyu
+20221103,0715,end,admin bentleyu
+20221103,0723,start,admin bentleyu
+20221103,0735,end,admin bentleyu
+20221103,0825,start,ENCOUNTER JC
+20221103,0903,end,ENCOUNTER JC/CDAL Seminar
+20221103,0907,start,ENCOUNTER JC/CDAL Seminar
+20221103,0944,end,CDAL Seminar
+20221103,1010,start,CDAL Seminar/CAA stuff
+20221103,1040,end,CDAL Seminar/CAA stuff
+20221103,1120,start,CDAL Seminar/BENTLEY EYT AL
+20221103,1139,end,BENTLEY EYT AL reading draft
+20221103,1139,start,BENTLEY ET AL new simulation
+20221103,1208,end,BENTLEY ET AL new simulation
+20221103,1315,start,collaborabm 
+20221103,1625,end,BENTLEY collaboarbm/Review VEGUETA
+20221103,1625,start,ENCOUNTER et autre
+20221103,1720,end,ENCOUNTER et autre
+20221103,1740,start,ENCOUNTER et autre
+20221103,1836,end,ENCOUNTER et autre
+
+20221104,0740,start,CDAL SEM
+20221104,0800,end,CDAL SEM
+20221104,0810,start,CDAL SEM
+20221104,0944,end,CDAL SEM
+20221104,1110,start,CDAL SEM
+20221104,1300,end,CDAL SEM
+20221104,1300,start,COLLABORABM
+20221104,1700,end,COLLABORABM
+
+20221105,0940,start,ENCOUNTER lithics
+20221105,1251,end,ENCOUNTER lithics (photo shinya)
+20221105,1251,start,ENCOUNTER lithics
+20221105,1344,end,ENCOUNTER lithics/DIV CDAL/ETC
+20221105,1344,start,COLLABORABM BA
+20221105,1444,end,COLLABORABM BA
+20221105,1458,start,COLLABORABM BA
+20221105,1520,end,COLLABORABM BA
+20221105,1640,start,COLLABORABM BA
+20221105,2000,start,ENCOUNTER PADDYFILED BA
+
+20221106,1025,start,ENCOUNTER LITHICS
+20221106,1125,end,ENCOUNTER LITHICS
+20221106,1323,start,Bentley paper
+20221106,1520,end,Bentley paper
+20221106,1535,start,admin
+20221106,1725,end,collbaorabm
+20221106,1735,start,admin
+20221106,1900,end,admin/REVIEW VEGUETA/REVIEW CEAA
+
+20221107,0800,start,COLLABOABM/aDmin cdal sem
+20221107,0905,end,COLLABOABM/aDmin cdal sem
+20221107,0910,start,review VEG
+20221107,1102,end,review VEG
+20221107,1102,start,review CAA
+20221107,1252,end,review CAA
+20221107,1325,start,BA grant
+20221107,1401,end,BA grant
+20221107,1455,start,BA grant
+20221107,1530,end,BA grant
+20221107,1530,start,CDAL SEMI
+20221107,1810,end,CDAL SEMI
+20221107,1830,start,CDAL SEMI
+20221107,1900,end,admin div
+
+20221108,0850,start,BENETLEY
+20221108,1353,end,ENCOUNTER RICE GRAIN
+20221108,1421,start,ENCOUNTER  journal club
+20221108,1501,end,ENCOUNTER  journal club
+20221108,1538,start,ENCOUNTER  journal club
+20221108,1624,end,ENCOUNTER  journal club
+20221108,1739,start,ENCOUNTER  journal club
+20221108,1859,start,ENCOUNTER  journal club
+
+20221109,0830,start,admin
+20221109,0903,end,admin
+20221109,0903,start,ENCOUNTER JC
+20221109,1020,end,ENCOUNTER JC
+20221109,1051,start,BENTLEY 
+20221109,1251,end,BENTLEY /ENCOUNTER MEETING/ENCOUNTER RICE GRAIN SIZE
+20221109,1410,start,BENTLEY/ENCOUNTER RICE GRAIN SIZE
+20221109,1939,end,BENTLEY/ENCOUNTER RICE GRAIN SIZE
+
+20221110,0741,start,Nowork
+20221110,0800,end,Nowork
+20221110,0800,start,BENTLEY
+20221110,1139,end,BENTLEY
+20221110,1139,start,ENCOUNTER burial 
+20221110,1242,end,ENCOUNTER burial 
+20221110,1351,start,Bentley 
+20221110,1610,end,Bentley 
+20221110,1610,start,CDAL/admin
+20221110,1740,end,CDAL/admin
+
+20221111,0821,start,CDAL/admin
+20221111,1157,end,CDAL/admin
+20221111,1200,start,CDAL/admin
+20221111,1310,end,CDAL/admin
+20221111,1432,start,bentley
+20221111,1832,end,bentley
+
+20221113,1705,start,admin/bentley
+20221113,1902,start,admin/bentley/NETWORK
+
+20221114,0835,start,NETWORK
+20221114,1227,end,NETWORK/BENTLEY/ADMIN
+20221114,1300,start,CDAL Sem
+20221114,1330,end,CDAL sem
+20221114,1330,start,Bentley/admin
+20221114,1430,end,Bentley/admin
+20221114,1430,start,CDAL
+20221114,1800,end,CDAL
+
+20221115,0834,start,CDAL/EAA
+20221115,1130,end,CDAL/EAA
+20221115,1130,start,bentley
+20221115,1337,end,bentley
+20221115,1337,start,network
+20221115,1452,end,network
+20221115,1542,start,admin
+20221115,1704,end,admin
+20221115,1704,start,tmux vim 
+20221115,1810,end,tmux vim 
+20221115,1810,start,networks
+20221115,1824,end,networks
+20221115,1824,start,ENCOUNTER lithics
+20221115,1830,end,ENCOUNTER lithics
+
+20221116,0739,start,ADMIN
+20221116,0839,end,ADMIN
+20221116,0839,start,ENCOUNTER
+20221116,1335,end,ENCOUNTER meeting+LithicsDB
+20221116,1355,start,ENCOUNTER +LithicsDB
+20221116,1635,end,ENCOUNTER +LithicsDB (+un peu admin)
+20221116,1635,start,NEtwork
+20221116,1705,end,NEtwork
+20221116,1705,start,GENERAL ARCHAEO
+20221116,1835,end,GENERAL ARCHAEO
+20221116,1835,start,NETWORK
+20221116,2103,end,NETWORK
+
+20221117,0803,start,ENCOUNTER/NETWORK
+20221117,0943,end,ENCOUNTER LITHICS
+20221117,0943,start,CDAL SEMINARI
+20221117,1126,end,Admin general
+20221117,1126,start, CDAL NETWORK(depat network)
+20221117,1534,end, CDAL NETWORK(depat network)
+20221117,1610,start,admin
+20221117,1634,end,admin
+
+20221118,0745,start,admin
+20221118,0815,end,admin
+20221118,0900,start,OPEN ACCESS
+20221118,1510,end,OPEN ACCESS
+20221118,1640,start,admin
+
+20221119,1000,start,DEPOFARCH-NET 
+20221119,1140,end,DEPOFARCH-NET 
+
+20221120,2030,start,DEPOFARCH-NET 
+20221120,2110,end,DEPOFARCH-NET 
+20221120,2225,start,DEPOFARCH-NET 
+20221120,2335,end,DEPOFARCH-NET 
+
+20221121,0815,start,ENCOUNTER lithics
+20221121,0950,end,ENCOUNTER lithics
+20221121,0955,start,div admin
+20221121,1215,end,div admin DEPOFARCH-NET
+20221121,1225,start,CDAL LUNCH DEP
+20221121,1325,end,CDAL LUNCH DEP
+20221121,1335,start,DEPOFARCH-NET
+20221121,1530,end,DEPOFARCH-NET
+20221121,1535,start,ENCOUNTER RICE
+
+20221122,0900,start,ENCOUNTER Rice Grain/admin
+20221122,1110,end,ENCOUNTER Rice Grain/admin
+20221122,1115,start,BENTLEY RANDOMFA
+20221122,1220,end,BENTLEY RANDOMFA
+20221122,1232,start,ENCOUNTER lithics
+20221122,1322,end,ENCOUNTER lithics
+20221122,1330,start,ADMIN DEPOFARCH
+20221122,1710,end,ADMIN DEPOFARCH
+20221122,1720,start,BENTLEY RANDOMFA
+20221122,1804,end,BENTLEY RANDOMFA
+
+20221123,1000,start,BENTLEY RANDOMFA
+20221123,1230,end,BENTLEY RANDOMFA
+20221123,1300,start,ENCOUNTER BENTLEY
+20221123,1500,end,ENCOUNTER BENTLEY
+
+20221128,0900,start,admin
+20221128,1004,end,admin
+20221128,1004,start,manuscript edition + networks:
+20221128,1211,end,manuscript edition + networks:
+20221128,1211,start,NOMEACUERDO
+20221128,1310,end,NOMEACUERDO
+20221128,1430,start,CDAL SEMINAR
+20221128,1800,end,CDAL SEMINAR
+
+20221129,0800,start,ADMIN
+20221129,1000,end,ADMIN (grant writing)
+20221129,1015,start,social events
+20221129,1115,end,social events
+20221129,1115,start,network
+20221129,1130,end,network
+20221129,1130,start,ENCOUNTER
+20221129,1300,end,ENCOUNTER
+20221129,1310,start,CDAL SEM
+20221129,1345,end,CDAL SEM
+20221129,1405,start,ENCOUNTER
+20221129,1722,end,ENCOUNTER
+20221129,1735,start,BENTLEY
+20221129,1804,end,BENTLEY
+
+20221201,1100,start,minadmin (i am sick)
+20221201,1130,end,minadmin (i am sick)
+20221201,1230,start,BENTLEY
+20221201,1323,end,BENTLEY
+20221201,1455,start,BENTLEY
+20221201,1539,end,BENTLEY
+20221201,1539,start,CDAL ADMIN
+20221201,1619,end,CDAL ADMIN
+
+20221202,1300,start,CAA admin
+20221202,1400,end,CAA admin
+20221202,1830,start,CAA admin
+20221202,1900,end,CAA admin
+
+20221203,0800,start,admin  (workshop network)
+20221203,0820,end,admin (adventofcode)
+20221203,1010,start,admin DEPOFARCH/ADVENTOFCODE/network funding
+20221203,1140,end,admin DEPOFARCH/ADVENTOFCODE/network funding
+20221203,1350,start,admin DEPOFARCH/network funding
+20221203,1525,end,admin DEPOFARCH/network funding
+20221203,1608,start,BENTLEY
+20221203,1608,end,BENTLEY/DEPOFARCH
+
+20221205,1034,start,ADMIN image encounter
+20221205,1324,end,ADMIN image encounter
+
+20221207,1214,start,NETSSR
+20221207,1224,end,NETSSR
+20221207,1424,start,ADMIN CAA
+20221207,1524,end,ADMIN CAA
+20221207,1712,start,ADMIN 
+20221207,1724,end,ADMIN 
+20221207,1724,start,Bentley
+20221207,1922,end,Bentley
+
+20221208,1600,start,Bentley
+20221208,1722,end,Bentley
+
+20221209,1122,start,admin
+20221209,1215,end,admin
+20221209,1400,start,CAA review
+20221209,1520,end,CAA review
+20221209,1540,start,bentley
+20221209,1640,end,bentley
+
+
+20221212,1130,start,admin
+20221212,1400,end,admin essayer de recuperer de sous a tout prix
+20221212,1430,start,admin CAA abstract review
+20221212,1600end,admin CAA abstract review
+
+20221213,0900,start,BENTLEY
+20221213,1240,end,BENTLEY
+20221213,1335,start,BENTLEY
+20221213,1800,end,BENTLEY
+
+20221214,0930,start,BENTLEY coding run simulation
+20221214,1030,end,BENTLEY coding run simulation
+20221214,1030,start,admin YAYOI config
+20221214,1045,end,admin YAYOI config/BENTLEY rerun
+20221214,1048,start,BENTLEY writing
+20221214,1234,end,BENTLEY writing
+20221214,1300,start,WOLFSON
+20221214,1400,end,WOLFSON
+20221214,1444,start,BENTLEY writing
+20221214,1822,end,BENTLEY writing
+
+20221215,0830,start,BENTLEY writing
+20221215,1135,end,BENTLEY writing
+20221215,1335,start,BENTLEY writing
+20221215,1355,end,BENTLEY writing
+20221215,1403,start,BENTLEY simulation
+20221215,1735,start,BENTLEY simulation
+
+20221216,0810,start,admin CDAL Journal club reading
+20221216,0940,end,admin CDAL Journal club reading
+20221216,0940,start,admin CDAL SEMINAR
+20221216,1200,end,admin CDAL SEMINAR
+20221216,1210,start,CDAL journal club 
+20221216,1330,end,admin CDAL SEMINAR
+20221216,1350,start,CDAL SEMINAR itckz
+20221216,1910,end,CDAL SEMINAR itckz
+
+20221217,1610,start,CDAL SEMINAR itckz
+20221217,1730,end,CDAL SEMINAR itckz
+20221217,1747,start,CDAL SEMINAR tickz
+20221217,1813,end,CDAL SEMINAR tickz
+20221217,1942,end,CDAL SEMINAR admin
+
+20221219,0800,start,ADMIN
+20221219,0830,end,ADMIN
+20221219,1030,start,BENTLEY rerun and graph
+20221219,1035,end,BENTLEY rerun and graph
+20221219,1035,start,ENCOUNTER ADMIN
+
