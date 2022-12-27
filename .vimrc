@@ -3,7 +3,7 @@ syntax enable
 filetype plugin on
 filetype indent on
 
-#show line number
+" show line number
 set number
 
 
