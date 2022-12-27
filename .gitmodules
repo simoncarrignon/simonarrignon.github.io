@@ -5,8 +5,14 @@
 	path = .vim/bundle/Nvim-R
 	url = https://github.com/jalvesaq/Nvim-R.git
 [submodule ".vim/bundle/vim-latex"]
-	path = .vim/bundle/vim-latex
+	path = .vim/pack/all/start/vim-latex
 	url = https://github.com/vim-latex/vim-latex
 [submodule ".vim/bundle/vim-airline"]
 	path = .vim/bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline
+[submodule "/home/simon/.vim/pack/all/start/Nvim-R"]
+	path = /home/simon/.vim/pack/all/start/Nvim-R
+	url = https://github.com/jalvesaq/Nvim-R.git
+[submodule "/home/simon/.vim/pack/all/start/vim-airline"]
+	path = /home/simon/.vim/pack/all/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
