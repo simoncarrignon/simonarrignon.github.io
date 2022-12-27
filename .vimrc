@@ -3,6 +3,9 @@ syntax enable
 filetype plugin on
 filetype indent on
 
+#show line number
+set number
+
 
 
 "" pour revenir a la ligne sans couper les mots :
