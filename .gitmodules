@@ -1,15 +1,9 @@
 [submodule ".tmuxplugins/tmux-resurrect"]
 	path = .tmuxplugins/tmux-resurrect
 	url = https://github.com/tmux-plugins/tmux-resurrect
-[submodule ".vim/bundle/Nvim-R"]
-	path = .vim/bundle/Nvim-R
-	url = https://github.com/jalvesaq/Nvim-R.git
 [submodule "vim-latex"]
 	path = .vim/pack/all/start/vim-latex
 	url = https://github.com/vim-latex/vim-latex
-[submodule ".vim/bundle/vim-airline"]
-	path = .vim/bundle/vim-airline
-	url = https://github.com/vim-airline/vim-airline
 [submodule ".vim/pack/all/start/Nvim-R"]
 	path = .vim/pack/all/start/Nvim-R
 	url = https://github.com/jalvesaq/Nvim-R.git
