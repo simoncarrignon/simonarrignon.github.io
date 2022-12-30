@@ -91,5 +91,5 @@ set diffopt+=iwhite
 
 set diffexpr=""
 
-set conceallevel=2
-hi Conceal cterm=NONE ctermbg=NONE ctermfg=darkblue
+"set conceallevel=2
+"hi Conceal cterm=NONE ctermbg=NONE ctermfg=darkblue
