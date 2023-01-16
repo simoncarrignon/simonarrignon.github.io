@@ -517,7 +517,7 @@ paris CEA
 
 20221117,0803,start,ENCOUNTER/NETWORK
 20221117,0943,end,ENCOUNTER LITHICS
-20221117,0943,start,CDAL SEMINARI
+20221117,0943,start,CDAL SEMINAR
 20221117,1126,end,Admin general
 20221117,1126,start, CDAL NETWORK(depat network)
 20221117,1534,end, CDAL NETWORK(depat network)
@@ -823,5 +823,36 @@ paris CEA
 20230112,1608,start,BENTLEY repo admin
 20230112,1659,end,BENTLEY repo/admin
 20230112,1700,start,ENCOUNTER litterature BENTLEY repo
-20230112,1749,start,ENCOUNTER litterature BENTLEY repo
+20230112,1749,end,ENCOUNTER litterature BENTLEY repo
+
+20230113,0910,start,helpin
+20230113,1130,end,helpin
+20230113,1200,start,CDAL meeting
+20230113,1300,end,CDAL meeting
+20230113,1300,start,CDAL divers (collaborabm/seminar)
+20230113,1500,end,CDAL divers (collaborabm/seminar)
+20230113,1530,start,COLLABORABM
+20230113,1815,end,COLLABORABM
+
+20230114,1510,start,CDAL SEMINAR
+20230114,1735,end,CDAL SEMINAR
+20230114,1740,start,SSR
+20230114,1955,end,SSR
+
+20230115,1200,start,helping +  mentoring stuff
+20230115,1300,end,helping +  mentoring stuff
+
+20230116,0900,start,ADMIN
+20230116,1025,end,ADMIN
+20230116,1030,start,ADMIN
+20230116,1212,end,ADMIN
+20230116,1357,start,supervision
+20230116,1359,end,supervision
+20230116,1430,start,supervision
+20230116,1620,end,supervision
+20230116,1620,start,help R
+20230116,1630,end,help R
+20230116,1630,start,supervision
+20230116,1726,end,supervision
+
 
