@@ -853,6 +853,27 @@ paris CEA
 20230116,1620,start,help R
 20230116,1630,end,help R
 20230116,1630,start,supervision
-20230116,1726,end,supervision
+20230116,1736,end,supervision
+
+20230117,0750,start,supervision
+20230117,1050,end,supervision
+20230117,1100,start,ENCOUNTER
+20230117,1217,end,ENCOUNTER
+20230117,1220,start,SSR
+20230117,1340,end,SSR
+20230117,1400,start,supervision
+20230117,1700,end,supervision
+20230117,1710,start,SSR CDAL SEMINAR
+20230117,1748,end,SSR CDAL SEMINAR
+
+20230118,0818,start,ADMIN CAA EAA registrations + SSR
+20230118,1133,end,ADMIN CAA EAA registrations + SSR 
+20230118,1200,start,ADMIN postdoc pension
+20230118,1330,end, Admin postdoc pension
+20230118,1349,start, Admin + SSR
+20230118,1545,end, Admin + SSR
+20230118,1600,start, LITTERATURE REVIEW
+20230118,1700,end, LITTERATURE REVIEW
+
 
 
