@@ -1131,6 +1131,316 @@ paris CEA
 20230218,1526,start,ENCOUNTER GP
 20230218,1631,end,ENCOUNTER GP
 
+20230219,1411,start,ENCOUNTER admin
+20230219,1421,end,ENCOUNTER admin
+20230219,1441,start,ENCOUNTER GP
+20230219,1531,end,ENCOUNTER GP
+20230219,1551,start,ENCOUNTER GP
+20230219,1736,end,ENCOUNTER GP
+
+20230220,0830,start,admin
+20230220,0940,end,admin
+20230220,1000,start,ENCOUNTER GP
+20230220,1206,end,ENCOUNTER GP
+20230220,1336,start,CDAL seminar
+20230220,1830,end,CDAL seminar
+
+20230221,0845,start,ENCOUNTER DIV AMDIN
+20230221,0950,end,ENCOUNTER DIV AMDIN
+20230221,1010,start,ENCOUNTER SDM rice
+20230221,1310,end,ENCOUNTER SDM rice
+20230221,1500,start,ENCOUTER DIV pady
+20230221,1830,end,ENCOUNTER DIV paddy
+
+20230222,0640,start,ENCOUNTER DIV paddy
+20230222,0900,end,ENCOUNTER DIV paddy
+20230222,1130,start,ENCOUNTER meeting
+20230222,1300,end,ENCOUNTER meeting
+20230222,1340,start,ENCOUNTER meeting GP lithics
+20230222,1457,end,ENCOUNTER meeting GP lithics
+20230222,1507,start,admin review etc..
+20230222,1715,end,admin review etc..
+20230222,1745,start,admin review etc..
+20230222,1811,end,admin review etc..
+20230222,2000,start,Bentley
+20230222,2020,end,Bentley
+
+20230223,0640,start,Bentley
+20230223,0710,end,Bentley
+20230223,0815,start,admin
+20230223,0908,end,admin
+20230223,0906,start,admin Prevent formation
+20230223,0933,end,admin Prevent formation
+20230223,0933,start,admin CDAL sem
+20230223,1000,end,admin CDAL sem
+20230223,1017,start,BENTLEY
+20230223,1317,end,BENTLEY
+20230223,1330,start,supervision and div
+20230223,1500,end,supervision and div
+20230223,1500,start,BENTLEY
+20230223,1545,end,BENTLEY
+20230223,1550,start,ENCOUNTER JOMON pot
+20230223,1610,end,ENCOUNTER JOMON pot
+20230223,1615,start,supervision
+20230223,1742,end,supervision
+
+20230224,0746,start,admin supervision
+20230224,0826,end,admin supervision
+20230224,0826,start, supervision
+20230224,1000,end,ansupervision
+20230224,1000,start,bentley
+20230224,1100,end,bentley
+20230224,1100,start,supervision
+20230224,1230,end,supervision
+20230224,1300,start,CDAL social
+20230224,1343,end,CDAL social
+20230224,1604,start,ENCOUNTER PADDYFILED
+20230224,1634,end,ENCOUNTER PADDYFILED
+20230224,1634,start,supervision
+20230224,1729,end,supervision
+20230224,1745,start,ENCOUNTER PADDYFILED
+20230224,1730,end,ENCOUNTER PADDYFILED
+
+20230227,0830,start,Admin
+20230227,0900,end,Admin
+20230227,1040,start,supervisions
+20230227,1230,end,supervisions
+20230227,1240,start,supervisions
+20230227,1301,end,supervisions
+20230227,1301,start,ENCOUNTER lithics
+20230227,1528,end,ENCOUNTER lithics
+20230227,1532,start,CDAL
+20230227,1544,end,CDAL
+20230227,1723,start,admin
+20230227,1923,end,admin
+20230227,1923,start,ACE/AHRC grant
+20230227,2129,end,ACE/AHRC grant
+
+20230228,0745,start,admin CDAL ACE/AHRC grant
+20230228,0929,end,admin CDAL ACE/AHRC grant
+20230228,0929,start,supervision
+20230228,1110,end,supervision
+20230228,1240,start,ENCOUNTER BEDASSLE LITHICS
+20230228,1610,end,ENCOUNTER BEDASSLE LITHICS
+
+20230301,0802,start,admin sort out comu
+20230301,0847,end,admin sort out comu
+20230301,0930,start,ENCOUNTER LITHICS PERIODS ADMIN GROUP MEETING
+20230301,1410,end,ENCOUNTER LITHICS PERIODS ADMIN GROUP MEETING
+20230301,1550,start,ENCOUNTER GP LITHICS
+20230301,1610,end,ENCOUNTER GP LITHICS
+20230301,1645,start,ENCOUNTER LITHICS
+20230301,1835,end,ENCOUNTER LITHICS
+20230301,1921,start,GRANT ACE
+20230301,2030,end,GRANT ACE
+
+20230302,0744,start,bentley admin supervisions
+20230302,0758,end,bentley admin supervisions
+20230302,0758,start, supervisions
+20230302,0958,end, supervisions
+20230302,1000,start,cambridge cultural evolution
+20230302,1055,end,cambridge cultural evolution
+20230302,1105,start,caribean networks
+20230302,1200,end,caribean networks
+20230302,1611,start,litterature readings
+20230302,1712,end,litterature readings
+20230302,1725,start,Wolfson SEA
+20230302,1900,end,Wolfson SEA
+20230302,1915,start,review
+20230302,1945,end,review
+
+20230303,0738,start,ACE grant
+20230303,1157,end,ACE grant
+20230303,1200,start,CDAL
+20230303,1300,end,CDAL
+20230303,1340,start,ACE GRANT
+20230303,1537,end,ACE GRANT
+
+20230304,1331,end,ACE GRANT
+20230304,1600,end,ACE GRANT
+
+20230305,1842,start,supervision a bit ACE grant
+20230305,2010,end,supervision a bit ACE GRANT
+
+20230306,0802,start,supervision  admin
+20230305,0839,end,supervision  admin
+20230305,0839,start,CDAL
+20230305,0918,end,CDAL
+20230305,0928,start,supervisions
+20230305,1040,end,supervisions
+20230305,1040,start,LITTERATURE REVIEW
+20230305,1200,end,LITTERATURE REVIEW
+20230305,1410,start,DEPOFARCH ENCOUNTER
+20230305,1550,end,DEPOFARCH ENCOUNTER
+20230305,1657,end,supervisions
+20230305,1630,end,supervisions
+20230305,1630,start,CDAL
+20230305,1930,end,CDAL
+
+20230305,0730,start,CDAL
+20230305,0750,end,CDAL
+20230305,0810,start,DEPOFARCH admin
+20230305,0950,end,DEPOFARCH admin
+20230305,1000,start,DEPOFARCH admin
+20230305,1136,end,DEPOFARCH admin
+20230305,1140,start,supervision ENCOUNTER
+20230305,1400,end,supervision ENCOUNTER
+20230305,1430,start,supervision ENCOUNTER
+20230305,1550,end,supervision ENCOUNTER
+20230305,1600,start,supervision ENCOUNTER
+20230305,1720,end,supervision ENCOUNTER
+
+20230308,0730,start,admin ENCOUNTER
+20230308,0810,end,admin ENCOUNTER
+20230308,0810,start,supervision ENCOUNTER
+20230308,1000,end,supervision ENCOUNTER
+20230308,1000,start,supervision ENCOUNTER
+20230308,1100,end,supervision ENCOUNTER
+20230308,1100,start,ENCOUNTER GP
+20230308,1128,end,ENCOUNTER GP
+20230308,1132,start,ENCOUNTER meeting
+20230308,1232,end,ENCOUNTER meeting
+
+
+20230309,0900,start,ACE?
+20230309,1100,end,ACE?
+20230309,1632,start,ACE?
+20230309,1932,end,ACE?
+
+20230312,0800,start,Div admin CDAL seminar
+20230312,1300,end,Div admin CDAL seminar
+20230312,1400,start,redaction CV postulation
+20230312,1800,end,redaction CV postulation
+
+20230312,0800,start,ENCOUNTER 
+20230312,1300,end,encounter
+20230312,1414,start,encounter
+20230312,1930,end,encounter
+
+20230320,0930,start,encounter
+20230320,1300,end,encounter
+20230320,1400,start,encounter
+20230320,1806,end,encounter
+
+20230321,0812,start,admin
+20230321,0852,end,admin
+20230321,0852,start,nawak
+20230321,1130,end,nawak
+20230321,1130,start,encounter presentation
+20230321,1410,end,encounter presentation
+20230321,1500,start,encounter presentation
+20230321,2030,end,encounter presentation
+
+20230322,0756,start,encounter presentation
+20230322,1202,end,encounter presentation
+20230322,1428,start,encounter presentation
+20230322,2011,end,encounter presentation
+
+20230323,0800,start,encounter presentation
+20230323,1300,end,encounter presentation
+20230323,1330,start,encounter presentation
+20230323,1556,end,encounter presentation
+20230323,1558,start,encounter meeting
+20230323,1700,end,encounter meeting
+
+20230324,0730,start,encounter presentation
+20230324,0840,end,encounter presentation
+20230324,0900,end,encounter workshop
+20230324,1700,end,encounter workshop
+
+20230325,1330,start,admin 
+20230325,1430,end,admin 
+20230325,1500,start,depofarch network
+20230325,1630,end,depofarch network
+20230325,1700,start,editorial
+20230325,1946,end,editorial
+20230325,1946,start,depofarch
+20230325,2230,end,depofarch
+
+20230326,1330,start,admin
+20230326,1400,end,admin
+20230326,1400,start,depofarch LDA litterature
+20230326,1457,end,depofarch LDA lttterature
+20230326,1527,start,depofarch LDA lttterature
+20230326,1807,end,depofarch LDA lttterature
+20230326,1807,start,CDAL seminar/ADMIN
+20230326,1930,end,CDAL seminar/ADMIN
+20230326,1945,start,depofarch
+20230326,2048,end,depofarch
+20230326,2048,start,BA archaeoriddle admin
+20230326,2138,end,BA archaeoriddle admin
+
+20230327,0820,start,admin depofarch CAA prep
+20230327,1059,end,admin depofarch CAA pre
+20230327,1059,start,ENCOUNTER archaeoriddle
+20230327,1159,end,ENCOUNTER archaeoriddle
+20230327,1200,start,archaeoriddle
+20230327,1320,end,archaeoriddle
+20230327,1320,start,archaeoriddle CAA prep ENCOUNTER BENTLEY
+20230327,1403,end,archaeoriddle CAA prep ENCOUNTER BENTLEY
+20230327,1523,end,archaeoriddle CAA prep ENCOUNTER BENTLEY
+20230327,1523,start,CAA presen BENTLEY
+20230327,1700,end,CAA present BENTLEY
+20230327,1954,start,CAA admin
+20230327,2010,end,CAA admin
+20230327,2026,start,CAA admin
+20230327,2051,end,CAA admin
+
+20230328,0810,start,ESLR description
+20230328,0954,end,ESLR description
+20230328,1023,start,ESLR description
+20230328,1238,end,ESLR description
+20230328,1339,start,CRASSH aadmin div
+20230328,1414,end,CRASSH aadmin div
+20230328,1510,start,presentation CAA (ENCOUNTER BENTLEY archaeoriddle)
+20230328,1856,end,presentation CAA (ENCOUNTER BENTLEY archaeoriddle)
+
+20230329,0828,start,admin CAA archaeoriddle JClub evol
+20230329,0907,end,admin CAA archaeoriddle JClub evol
+20230329,0909,start,CAA archaeoriddle
+20230329,1400,end,CAA archaeoriddle
+20230329,1800,start,CAA archaeoriddle bentley
+20230329,2040,end,CAA archaeoriddle bentley
+
+20230330,0814,start,CAA archaeoriddle
+20230330,0858,end,CAA archaeoriddle 
+20230330,0900,start,CAA bentley
+20230330,0908,end,CAA bentley
+20230330,0908,start,SAMSON BIBLI YAZ
+20230330,0948,end,SAMSON BIBLI YAZ
+20230330,0948,start,CAA archaeoriddle
+20230330,1229,end,CAA archaeoriddle
+20230330,1400,start,CAA archaeoriddle
+20230330,1500,end,CAA archaeoriddle
+20230330,1500,start,bentley
+20230330,1550,end,bentley
+20230330,1600,start,archaeoriddle
+20230330,1640,end,archaeoriddle
+20230330,1900,start,CAA bentley encounter
+20230330,1930,end,CAA bentley eno
+
+20230331,0730,start,CAA bentley eno
+20230331,0830,end,CAA bentley eno
+20230331,0830,start,CAA bentley archaeoriddle
+20230331,1000,end,CAA bentley eno
+20230331,1000,start,CAA bentley eno
+20230331,1400,end,CAA bentley eno
+20230331,1500,start,CAA encounter
+20230331,1600,end,CAA encounter
+20230331,1630,start,interview nimbios
+20230331,1710,end,interview nimbios
+20230331,1740,start,CAA ENCOUNTER
+20230331,2108,end,CAA ENCOUNTER
+
+20230401,1604,start,CAA ENCOUNTER BENTLEY (repetition metnal dans la journé et hier )
+20230401,1644,end,CAA ENCOUNTER BENTLEY 
+20230401,1644,start,YAZ Samson
+20230401,1656,end,YAZ SAMSON
+
+20230402,12004,start,CAA BENTLEY DRIFTOSEL
+20230402,1300,end,CAA BENTLEY DRIFTOSEL
+20230402,2004,start,review PEERJ
+20230402,2200,end,review PEERJ
 
 
 
