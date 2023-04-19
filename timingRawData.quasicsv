@@ -1461,4 +1461,45 @@ paris CEA
 20230410,0700,start,admin
 20230410,0730,end,admin
 20230410,1350,start,CRASSH workshop
-20230410,1950,end,CRASSH workshop
+20230410,1952,end,CRASSH workshop
+
+20230411,1535,start,admin div encounter
+20230411,1610,end,admin div encounter
+20230411,1610,start,ENCOUNTER lithics
+20230411,1944,end,ENCOUNTER lithics
+
+20230411,0901,start,ENCOUNTER lihics admin
+20230411,0939,end,ENCOUNTER lithics admin
+20230411,1000,start,ENCOUNTER lithics
+20230411,1058,end,ENCOUNTER lithics
+20230411,1058,start,ENCOUNTER meetings
+20230411,1210,end,ENCOUNTER meetings
+20230411,1352,start,div admin
+20230411,1500,end,div admin
+20230411,1630,start, GPT3
+20230411,1930,end,GPT3
+
+20230413,0810,start,ENCOUNTER lithics correction
+20230413,1518,end,ENCOUNTER lithics correction
+20230413,1600,start,SLSIR bentley
+20230413,1720,end,SLSIR bentley
+
+20230415,1110,start,admin
+20230415,1350,end,admin
+20230415,1520,start,SUDOC samson SLSIR autoGPT
+20230415,2100,end,SUDOC samson SLSIR autoGPT
+
+20230415,0900,start,admin SUDOC
+20230415,1000,end,admin SUDOC
+20230415,1005,start,admin 
+20230415,1029,end,admin 
+20230415,1035,start,admin BENTLEY SLSIR CDAL SEM SSR
+20230415,1347,end,admin BENTLEY SLSIR CDAL SEM SSR
+20230415,1900,start,admin SSR
+20230415,2200,end,admin SSR
+
+20230415,1300,start,big mess
+20230415,1800,end,big mess
+20230415,2215,start,CDAL seminar
+20230415,2250,end,CDAL seminar
+
