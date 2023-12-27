@@ -3,13 +3,16 @@ syntax enable
 filetype plugin on
 filetype indent on
 
+" show line number
+set number
+
 
 
 "" pour revenir a la ligne sans couper les mots :
 set wrap linebreak nolist 
 
 "" burfers goes to background
-set hidden 
+set hidden
 
 if exists("$TMUX")
     let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
@@ -50,6 +53,8 @@ vmap <Space> <Plug>RDSendSelection
 " send line to R with space bar
 nmap <Space> <Plug>RDSendLine
 
+let g:r_indent_op_pattern     = get(g:, 'r_indent_op_pattern',
+      \ '\(&\||\|+\|-\|\*\|/\|=\|\~\|%\|->\)\s*$')
 
 " Display scons files with python syntax
 autocmd BufReadPre,BufNewFile SConstruct set filetype=python
@@ -82,8 +87,9 @@ let g:airline_symbols.space = "\ua0"
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled = 1
 
-
 set diffopt+=iwhite
 
 set diffexpr=""
 
+"set conceallevel=2
+"hi Conceal cterm=NONE ctermbg=NONE ctermfg=darkblue
